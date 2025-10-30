@@ -1,0 +1,38 @@
+[
+    {
+        "ip": "192.168.0.66",
+        "host_name": "",
+        "state": "up",
+        "open_ports": []
+    },
+    {
+        "ip": "192.168.0.68",
+        "host_name": "",
+        "state": "up",
+        "open_ports": []
+    },
+    {
+        "ip": "192.168.0.70",
+        "host_name": "",
+        "state": "up",
+        "open_ports": []
+    },
+    {
+        "ip": "192.168.0.71",
+        "host_name": "",
+        "state": "up",
+        "open_ports": []
+    },
+    {
+        "ip": "192.168.0.72",
+        "host_name": "",
+        "state": "up",
+        "open_ports": []
+    },
+    {
+        "ip": "192.168.0.74",
+        "host_name": "",
+        "state": "up",
+        "open_ports": []
+    }
+]
