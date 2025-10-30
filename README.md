@@ -19,22 +19,22 @@ Requirements
 #️⃣ Windows: Download installer from https://nmap.org/
  or use Chocolatey:
 
-  choco install nmap
+ 	choco install nmap
 
 
 #️⃣ Linux (Debian/Ubuntu):
 
-  sudo apt update && sudo apt install nmap
+ 	sudo apt update && sudo apt install nmap
 
 
 #️⃣ macOS (Homebrew):
 
-  brew install nmap
+ 	brew install nmap
 
 
 #️⃣ Python wrapper python-nmap:
 
-  pip install python-nmap
+ 	pip install python-nmap
 
 Script: network-scanner.py
 
@@ -48,7 +48,7 @@ Navigate to the folder containing network-scanner.py.
 
 Run the script:
 
-  python network-scanner.py
+		python network-scanner.py
 
 
 The script runs host discovery on the default target 192.168.0.0/24.
@@ -60,35 +60,35 @@ Output
 
 Example live_hosts.json structure:
 
-  {
-      "target": "192.168.1.0/24",
-      "timestamp": "2025-10-30T12:34:56Z",
-      "hosts_found": [
-          {
-              "ip": "192.168.1.5",
-              "hostname": "device.local",
-              "state": "up"
-          },
-          {
-              "ip": "192.168.1.12",
-              "hostname": "",
-              "state": "up"
-          }
-      ]
-  }
+		{
+						"target": "192.168.1.0/24",
+						"timestamp": "2025-10-30T12:34:56Z",
+						"hosts_found": [
+										{
+														"ip": "192.168.1.5",
+														"hostname": "device.local",
+														"state": "up"
+										},
+										{
+														"ip": "192.168.1.12",
+														"hostname": "",
+														"state": "up"
+										}
+						]
+		}
 
 Troubleshooting
 
 If you see “nmap executable not found”, install Nmap and ensure it’s on your PATH. Then re-open your terminal and run:
 
-  nmap -v
+ 	nmap -v
 
 
 to verify.
 
 If python-nmap is missing:
 
-  pip install python-nmap
+ 	pip install python-nmap
 
 
 If the script finds no hosts:
